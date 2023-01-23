@@ -1,0 +1,10 @@
+a) Pokretanjem programa na racunalu nastat ce i proces. Pokrenuo bi program /bin/bash lab02-3.sh te bi tako nastao proces u foregroundu. Poslao bi ga u pozadinu tako da bi ga zaustavio kombinacijom CTRL + Z, te iskoristio naredbu 'bg'. Odmah pri pokretanju bi proces bio poslan u pozadinu dodavanjem '&' iza naredbe.
+
+b) Naredbom bg.
+
+c) Naredbom 'ps -o pid,user,args,nice' se pronade PID trazene skripte te ujedno i njen trenutni nice broj. Naredbom 'renice -1 PID' bi promijenio nice broj pokrenute skripte. Time je ona dobila veci prioritet u vremenu zauzimanja CPU-a.
+
+d) CRTL + C ce poslati SIGINT, a ova skripta prima SIGINT, ispisuje "Try harder" te nastavlja s radnjom. Moram poslati procesu neki drugi signal koji ce ga uspjeti prekinuti, recimo SIGKILL. To mogu pomocu naredbe 'kill -SIGKILL $PID'.
+
+e) Kad se ugasi terminal, preostalim se procesima salje SIGTERM, zatim ako ni tad nisu zavrsili na vrijeme salje im se SIGKILL. Nastavak izvodenja procesa nakon gasenja terminala moze se omoguciti naredbom 'nohup bash lab02-3.sh &'.
+
