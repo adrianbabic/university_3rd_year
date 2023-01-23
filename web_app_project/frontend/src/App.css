@@ -1,0 +1,183 @@
+.navbar-custom {
+  background-color: lightgreen;
+  background-blend-mode: color-burn;
+  /* background-color: -webkit-linear-gradient(left, #3931af, #00c6ff); */
+}
+
+.navbar-brand {
+  font-size: x-large;
+}
+.nav-item {
+  font-size: large;
+}
+
+li {
+  list-style-type: none;
+}
+
+.ListInstruktora {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 60%;
+  margin: 25px auto;
+}
+
+.ButtonInstruktor {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(40, 39, 43, 0.36);
+  overflow: hidden;
+  background-color: rgba(201, 216, 232, 0.8);
+}
+
+.Instruktor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80vh;
+}
+
+.instruktorIme {
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 0;
+  margin-inline-start: 33px;
+  max-width: fit-content;
+  margin: auto;
+}
+
+.Instruktor > h4 > a {
+  text-decoration: none;
+  color: rgb(55, 55, 142);
+}
+
+.instruktorDetalji {
+  margin-top: 7px;
+  margin-left: 10px;
+  margin-bottom: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.instruktorDetalji > h6 {
+  margin: 0;
+  margin-right: 10px;
+  margin-left: 25px;
+}
+
+.slikaLista {
+  align-self: center;
+  margin-right: 15px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+}
+
+.card {
+  background-color: #f7f7f7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* css za edit profila */
+body {
+  margin: 0;
+  /* padding-top: 40px; */
+  color: #2e323c;
+  background: #f5f6fa;
+  position: relative;
+  height: 100%;
+}
+.account-settings .user-profile {
+  margin: 0 0 1rem 0;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.account-settings .user-profile .user-avatar {
+  margin: 0 0 1rem 0;
+}
+.account-settings .user-profile .user-avatar img {
+  width: 90px;
+  height: 90px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+}
+.account-settings .user-profile h5.user-name {
+  margin: 0 0 0.5rem 0;
+}
+.account-settings .user-profile h6.user-email {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #9fa8b9;
+}
+.account-settings .about {
+  margin: 2rem 0 0 0;
+  text-align: center;
+}
+.account-settings .about h5 {
+  margin: 0 0 15px 0;
+  color: #007ae1;
+}
+.account-settings .about p {
+  font-size: 0.825rem;
+}
+.form-control {
+  border: 1px solid #cfd1d8;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 0.825rem;
+  background: #ffffff;
+  color: #2e323c;
+}
+
+.card {
+  background: #ffffff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 0;
+  margin-bottom: 1rem;
+}
+
+.answer-container {
+  display: flex;
+  align-items: center;
+}
+
+.answer-input {
+  margin-right: 0.5rem;
+}

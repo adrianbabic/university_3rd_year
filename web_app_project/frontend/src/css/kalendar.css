@@ -1,0 +1,56 @@
+@import "../../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-calendars/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-dropdowns/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-inputs/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-lists/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-navigations/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-popups/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-react-schedule/styles/material.css";
+
+.container-whole-page{
+    margin-left: -10%;
+    margin-right: -10%;
+}
+.scheduler-container {
+    float: left;
+    width: 70%;
+    margin-bottom: 5%;
+}
+
+.container-form-termin {
+    float: right;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 25%;
+    background-color: white;
+    border-radius: 5%;
+}
+
+.form-group{
+    width: 100%;
+    align-content: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.btn-primary{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+h4 {
+    padding-top: 5%;
+    color: #007bff;
+}
+
+input {
+    margin-top: 1%; 
+}
+
+.scheduler-container-view{
+    float: left;
+    width: 100%;
+    margin-bottom: 5%;
+}
