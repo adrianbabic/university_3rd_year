@@ -1,0 +1,2 @@
+# task_6
+Creating a simple library that offers support for working with complex numbers and polynomials. Using the existing library fractal_viewer to create fractal images that are created by fractals derived from Newton-Raphson iteration. Working with threads and offering support for parallel execution. For permission to use and distribute the fractal_viewer library I'm using in this task, please contact FER or izv. prof. dr. sc. Marko Čupić. 
